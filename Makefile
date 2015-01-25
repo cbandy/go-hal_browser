@@ -1,6 +1,9 @@
 
-hal-browser.go: hal-browser/
+hal-browser.go: hal-browser/ hal-browser/.git
 	go-bindata -o $@ -prefix=$< -ignore=[.]git -ignore=[.]md $<...
+
+hal-browser/.git:
+	git submodule update --init hal-browser
 
 clean:
 	rm -f hal-browser.go
