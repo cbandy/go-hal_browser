@@ -5,6 +5,8 @@ A Go [http.Handler](http://golang.org/pkg/net/http/#Handler) that serves up
 a statically compiled version of Mike Kelly's
 [HAL-browser](https://github.com/mikekelly/hal-browser).
 
+[![Build Status](https://travis-ci.org/cbandy/go-hal_browser.svg?branch=master)](https://travis-ci.org/cbandy/go-hal_browser)
+
 Examples
 ========
 
