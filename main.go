@@ -3,11 +3,12 @@ package hal_browser
 import (
 	"net/http"
 
+	"github.com/cbandy/go-hal_browser/asset"
 	"github.com/elazarl/go-bindata-assetfs"
 )
 
 var Handler = http.FileServer(&assetfs.AssetFS{
-	Asset: Asset, AssetDir: AssetDir,
+	Asset: asset.Asset, AssetDir: asset.AssetDir,
 })
 
 func At(path string) http.Handler {
