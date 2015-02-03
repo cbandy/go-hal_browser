@@ -1,4 +1,4 @@
-package hal_browser
+package asset
 
 import (
 	"bytes"
@@ -76,7 +76,7 @@ func mit_license_txt() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "MIT-LICENSE.txt", size: 1076, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "MIT-LICENSE.txt", size: 1076, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -96,7 +96,7 @@ func browser_html() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "browser.html", size: 8574, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "browser.html", size: 8574, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -116,7 +116,7 @@ func js_hal_browser_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/browser.js", size: 1425, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/browser.js", size: 1425, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -136,7 +136,7 @@ func js_hal_http_client_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/http/client.js", size: 1064, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/http/client.js", size: 1064, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -156,7 +156,7 @@ func js_hal_resource_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/resource.js", size: 1152, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/resource.js", size: 1152, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -176,7 +176,7 @@ func js_hal_views_browser_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/browser.js", size: 736, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/browser.js", size: 736, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -196,7 +196,7 @@ func js_hal_views_documentation_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/documentation.js", size: 169, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/documentation.js", size: 169, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -216,7 +216,7 @@ func js_hal_views_embedded_resource_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/embedded_resource.js", size: 1379, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/embedded_resource.js", size: 1379, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -236,7 +236,7 @@ func js_hal_views_embedded_resources_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/embedded_resources.js", size: 937, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/embedded_resources.js", size: 937, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -256,7 +256,7 @@ func js_hal_views_explorer_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/explorer.js", size: 557, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/explorer.js", size: 557, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -276,7 +276,7 @@ func js_hal_views_inspector_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/inspector.js", size: 868, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/inspector.js", size: 868, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -296,7 +296,7 @@ func js_hal_views_links_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/links.js", size: 1234, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/links.js", size: 1234, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -316,7 +316,7 @@ func js_hal_views_location_bar_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/location_bar.js", size: 976, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/location_bar.js", size: 976, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -336,7 +336,7 @@ func js_hal_views_navigation_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/navigation.js", size: 505, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/navigation.js", size: 505, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -356,7 +356,7 @@ func js_hal_views_non_safe_request_dialog_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/non_safe_request_dialog.js", size: 1444, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/non_safe_request_dialog.js", size: 1444, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -376,7 +376,7 @@ func js_hal_views_properties_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/properties.js", size: 321, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/properties.js", size: 321, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -396,7 +396,7 @@ func js_hal_views_query_uri_dialog_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/query_uri_dialog.js", size: 2091, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/query_uri_dialog.js", size: 2091, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -416,7 +416,7 @@ func js_hal_views_request_headers_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/request_headers.js", size: 685, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/request_headers.js", size: 685, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -436,7 +436,7 @@ func js_hal_views_resource_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/resource.js", size: 1184, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/resource.js", size: 1184, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -456,7 +456,7 @@ func js_hal_views_response_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/response.js", size: 554, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/response.js", size: 554, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -476,7 +476,7 @@ func js_hal_views_response_body_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/response_body.js", size: 1221, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/response_body.js", size: 1221, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -496,7 +496,7 @@ func js_hal_views_response_headers_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal/views/response_headers.js", size: 658, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal/views/response_headers.js", size: 658, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -516,7 +516,7 @@ func js_hal_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "js/hal.js", size: 1912, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "js/hal.js", size: 1912, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -536,7 +536,7 @@ func styles_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "styles.css", size: 1286, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "styles.css", size: 1286, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -556,7 +556,7 @@ func vendor_css_bootstrap_responsive_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "vendor/css/bootstrap-responsive.css", size: 22111, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "vendor/css/bootstrap-responsive.css", size: 22111, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -576,7 +576,7 @@ func vendor_css_bootstrap_css() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "vendor/css/bootstrap.css", size: 127247, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "vendor/css/bootstrap.css", size: 127247, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -596,7 +596,7 @@ func vendor_img_ajax_loader_gif() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "vendor/img/ajax-loader.gif", size: 1849, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "vendor/img/ajax-loader.gif", size: 1849, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -616,7 +616,7 @@ func vendor_img_glyphicons_halflings_white_png() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "vendor/img/glyphicons-halflings-white.png", size: 8777, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "vendor/img/glyphicons-halflings-white.png", size: 8777, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -636,7 +636,7 @@ func vendor_img_glyphicons_halflings_png() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "vendor/img/glyphicons-halflings.png", size: 12799, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "vendor/img/glyphicons-halflings.png", size: 12799, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -656,7 +656,7 @@ func vendor_js_backbone_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "vendor/js/backbone.js", size: 55476, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "vendor/js/backbone.js", size: 55476, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -676,7 +676,7 @@ func vendor_js_bootstrap_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "vendor/js/bootstrap.js", size: 61752, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "vendor/js/bootstrap.js", size: 61752, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -696,7 +696,7 @@ func vendor_js_jquery_1_10_2_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "vendor/js/jquery-1.10.2.js", size: 273199, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "vendor/js/jquery-1.10.2.js", size: 273199, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -716,7 +716,7 @@ func vendor_js_jquery_1_10_2_min_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "vendor/js/jquery-1.10.2.min.js", size: 93107, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "vendor/js/jquery-1.10.2.min.js", size: 93107, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -736,7 +736,7 @@ func vendor_js_jquery_1_10_2_min_map() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "vendor/js/jquery-1.10.2.min.map", size: 140036, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "vendor/js/jquery-1.10.2.min.map", size: 140036, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -756,7 +756,7 @@ func vendor_js_underscore_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "vendor/js/underscore.js", size: 41426, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "vendor/js/underscore.js", size: 41426, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
@@ -776,7 +776,7 @@ func vendor_js_uritemplates_js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindata_file_info{name: "vendor/js/uritemplates.js", size: 11969, mode: os.FileMode(436), modTime: time.Unix(1422158698, 0)}
+	info := bindata_file_info{name: "vendor/js/uritemplates.js", size: 11969, mode: os.FileMode(436), modTime: time.Unix(1422857112, 0)}
 	a := &asset{bytes: bytes, info:  info}
 	return a, nil
 }
